@@ -1,15 +1,10 @@
-const repeatString = function() {
-    
-    let hey = prompt("What is for horses but better for cows?");
-    
-    for (i = 0; i <= 3; i++) {
-        if (hey == "hey") {
-            return ('hey');
-        } else {
-
-        }
+const repeatString = function(string, num) {
+    let result = '';
+    for (let i = 0; i < num; i++) {
+      result += string;
     }
-};
+    return result;
+  }
 
 // Do not edit below this line
 module.exports = repeatString;
