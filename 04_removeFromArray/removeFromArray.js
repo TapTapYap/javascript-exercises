@@ -1,8 +1,7 @@
-const removeFromArray = function(numbers, num) {
-    const numbers = [];
+const removeFromArray = function(itemArray, itemsToRemove) {
+    let itemArray = itemsToRemove.filter(itemsToRemove);
 
-    for (const num of numbers)
-};
+}
 
 // Do not edit below this line
 module.exports = removeFromArray;
