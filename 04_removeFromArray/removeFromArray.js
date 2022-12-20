@@ -1,7 +1,6 @@
 const removeFromArray = function(itemArray, itemsToRemove) {
-    let itemArray = itemsToRemove.filter(itemsToRemove);
-
-}
+    return itemArray.filter(itemArray => !itemsToRemove.includes(itemsToRemove));
+};
 
 // Do not edit below this line
 module.exports = removeFromArray;
